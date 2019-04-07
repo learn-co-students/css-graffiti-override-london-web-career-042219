@@ -1,1 +1,22 @@
 /* write your override styles here */
+
+/* add wall id */
+#wall .tag-1 { display: none }
+
+/* add div element before tag-2 id */
+#wall div#tag-2 { display: none }
+
+/* add div element before tag-3 id */
+div#wall div#tag-3.slick { display: none }
+
+/* add parent class between wall and tag-4 ids */
+#wall .parent #tag-4 { display: none }
+
+/* add div element before tag-5 id */
+div#wall .parent div#tag-5.slick { display: none }
+
+/* add body element */
+body div#wall div.parent div:last-child div#tag-6 { display: none }
+
+/* add div element before tag-7 id */
+body div#wall div.parent div > div#tag-7.slick { display: none }
